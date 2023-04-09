@@ -24,27 +24,6 @@ const data = [
     review:
       'I am writing to recommend Saw Mon Han for any software development positions available at your organization. As a software developer, I have had the pleasure of working with Saw Mon on many projects and can confidently say that she is a talented developer. Saw Mon is highly proficient in various programming languages and frameworks and has a strong understanding of software development principles and best practices. She is always eager to learn new technologies and can quickly adapt to new challenges. She also has the patience to explain to others.',
   },
-  {
-    id: 3,
-    avatar: AVTR1,
-    name: 'Anita',
-    review:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque itaque, fugit laborum obcaecati soluta corporis reiciendis dolor autem et asperiores aperiam ducimus consequatur numquam tenetur nesciunt ipsa sint dolores assumenda.',
-  },
-  {
-    id: 4,
-    avatar: AVTR1,
-    name: 'Vangelis',
-    review:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque itaque, fugit laborum obcaecati soluta corporis reiciendis dolor autem et asperiores aperiam ducimus consequatur numquam tenetur nesciunt ipsa sint dolores assumenda.',
-  },
-  {
-    id: 5,
-    avatar: AVTR1,
-    name: 'Firdavs',
-    review:
-      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque itaque, fugit laborum obcaecati soluta corporis reiciendis dolor autem et asperiores aperiam ducimus consequatur numquam tenetur nesciunt ipsa sint dolores assumenda.',
-  },
 ];
 const Testimonials = () => (
   <section id="testimonials">
