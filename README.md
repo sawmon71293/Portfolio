@@ -17,7 +17,7 @@
   - [Deployment](#deployment)
   - [Usage](#usage)
   - [Live](#live)
-- [👥 Authors](#authors)
+- [👥 Author](#authors)
 - [🔭 Future Features](#features)
 - [🤝 Contribution](#contributing)
 - [⭐️ Show your support](#support)
@@ -28,7 +28,7 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
-**Portfolio**  includes a range of projects, such as a todo list app, movie app LeaderBoard app and a Calculator app. Each project demonstrates my proficiency in different technologies, including React, and JavaScript . You can explore each project to see the features, technologies used, and links to live projects and source code.
+**Portfolio**  includes a range of projects, such as a todo list app, movie app,LeaderBoard app and a Calculator app. Each project demonstrates my proficiency in different technologies, including React, and JavaScript . You can explore each project to see the features, technologies used, and links to live projects and source code.
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -91,7 +91,7 @@ You can deploy this project using:
 <!-- AUTHORS -->
 
 ### Live <a name="live"></a>
-- Live : [@live](https://math-magicians-sawmon-n1hz.onrender.com)
+- Live : [@live](https://sawmon-portfolio.onrender.com/)
 
 ## 👥 Author <a name="authors"></a>
 
