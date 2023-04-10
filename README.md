@@ -80,8 +80,7 @@ Install this project with:
 
 You can deploy this project using:
 
-- gitHub pages/
-- npm run dev
+- npm run build
 
 
 ### Usage
