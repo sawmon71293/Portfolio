@@ -26,8 +26,7 @@ const Services = () => (
           <li>
             <BiCheck className="service__list-icon" />
             <p>
-              Creating responsive website layouts using Bootstrap or Tailwind
-              CSS
+              Creating responsive website layouts using Bootstrap
             </p>
           </li>
         </ul>
@@ -47,21 +46,14 @@ const Services = () => (
           <li>
             <BiCheck className="service__list-icon" />
             <p>
-              Working with databases such as MongoDB, MySQL, Microsoft SQL
-              Server, PostgreSQL
+              Working with databases such as  Microsoft SQL
+              Server and MySQL.
             </p>
           </li>
           <li>
             <BiCheck className="service__list-icon" />
             <p>
               Using C# and .NET framework to develop APIs and web applications
-            </p>
-          </li>
-          <li>
-            <BiCheck className="service__list-icon" />
-            <p>
-              Using Ruby and Rails to develop RESTful APIs and web
-              applications
             </p>
           </li>
         </ul>
