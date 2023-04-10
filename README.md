@@ -17,7 +17,7 @@
   - [Deployment](#deployment)
   - [Usage](#usage)
   - [Live](#live)
-- [👥 Authors](#authors)
+- [👥 Author](#authors)
 - [🔭 Future Features](#features)
 - [🤝 Contribution](#contributing)
 - [⭐️ Show your support](#support)
