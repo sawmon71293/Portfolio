@@ -1,10 +1,5 @@
 <a name="readme-top"></a>
 
-# Preview 
-
-![calculator](https://user-images.githubusercontent.com/102650102/228421490-9ccb269d-2cd0-453c-b323-4c478f218d32.png)
-
-
 
 # 📗 Table of Contents
 
@@ -21,7 +16,6 @@
   - [Install](#install)
   - [Deployment](#deployment)
   - [Usage](#usage)
-  - [Run Tests](#runtests)
   - [Live](#live)
 - [👥 Author](#authors)
 - [🔭 Future Features](#features)
@@ -32,16 +26,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Math-magicians <a name="about-project"></a>
+# 📖 Portfolio <a name="about-project"></a>
 
-<<<<<<< HEAD
+
 **Portfolio**  includes a range of projects, such as a todo list app, movie app,LeaderBoard app and a Calculator app. Each project demonstrates my proficiency in different technologies, including React, and JavaScript . You can explore each project to see the features, technologies used, and links to live projects and source code.
-=======
-**Math-magicians** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
->>>>>>> 6e1ed81d6ec75cc7c84081f136810a6bd41b1ffe
-
-Make simple calculations.
-Read a random math-related quote.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -55,12 +43,7 @@ Read a random math-related quote.
 
 ### Key Features <a name="key-features"></a>
 
-This is to practice React
-
-- **Components**
-- **Events**
-- **Fetch data from API**
-- **Tests**
+This is to showcase my work.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,7 +65,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd your-folder
-  git clone git@github.com:sawmon71293/Math-magicians.git
+  git clone git@github.com:sawmon71293/Portfolio.git
 ```
 
 ### Install
@@ -90,7 +73,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 - npm install
-- npm run build
+- npm run dev
 
 ### Deployment
 
@@ -101,15 +84,15 @@ You can deploy this project using:
 
 ### Usage
 
-- npm run start
+- npm run dev
 
-### Run Tests <a name="runtests"></a>
-- npm test
 
 <!-- AUTHORS -->
 
 ### Live <a name="live"></a>
+
 - Live : [@live](https://sawmon-portfolio.onrender.com/)
+
 
 ## 👥 Author <a name="authors"></a>
 
@@ -121,8 +104,8 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="features"></a>
 
-- Add more functionalities
-- Update UI
+- Add more projects
+- Update UI with a light theme
 
 <!-- CONTRIBUTING -->
 
