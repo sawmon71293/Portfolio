@@ -1,10 +1,5 @@
 <a name="readme-top"></a>
 
-# Preview 
-
-![calculator](https://user-images.githubusercontent.com/102650102/228421490-9ccb269d-2cd0-453c-b323-4c478f218d32.png)
-
-
 
 # 📗 Table of Contents
 
@@ -32,9 +27,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Math-magicians <a name="about-project"></a>
+# 📖 Portfolio <a name="about-project"></a>
 
-**Math-magicians** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+**Portfolio** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
 Make simple calculations.
 Read a random math-related quote.
