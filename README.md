@@ -1,10 +1,5 @@
 <a name="readme-top"></a>
 
-# Preview 
-
-
-
-
 
 # 📗 Table of Contents
 
