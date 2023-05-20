@@ -1,5 +1,6 @@
+
 <a name="readme-top"></a>
-  
+
 
 # 📗 Table of Contents
 
@@ -16,6 +17,7 @@
   - [Install](#install)
   - [Deployment](#deployment)
   - [Usage](#usage)
+  - [Run Tests](#runtests)
   - [Live](#live)
 - [👥 Author](#authors)
 - [🔭 Future Features](#features)
@@ -26,10 +28,16 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio <a name="about-project"></a>
+# 📖 Math-magicians <a name="about-project"></a>
 
 
 **Portfolio**  includes a range of projects, such as a todo list app, movie app,LeaderBoard app and a Calculator app. Each project demonstrates my proficiency in different technologies, including React, and JavaScript . You can explore each project to see the features, technologies used, and links to live projects and source code.
+
+**Math-magicians** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+
+
+Make simple calculations.
+Read a random math-related quote.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -43,7 +51,12 @@
 
 ### Key Features <a name="key-features"></a>
 
-This is to showcase my work.
+This is to practice React
+
+- **Components**
+- **Events**
+- **Fetch data from API**
+- **Tests**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,7 +78,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd your-folder
-  git clone git@github.com:sawmon71293/Portfolio.git
+  git clone git@github.com:sawmon71293/Math-magicians.git
 ```
 
 ### Install
@@ -73,7 +86,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 - npm install
-- npm run dev
+- npm run build
 
 ### Deployment
 
@@ -84,15 +97,15 @@ You can deploy this project using:
 
 ### Usage
 
-- npm run dev
+- npm run start
 
+### Run Tests <a name="runtests"></a>
+- npm test
 
 <!-- AUTHORS -->
 
 ### Live <a name="live"></a>
-
 - Live : [@live](https://sawmon-portfolio.onrender.com/)
-
 
 ## 👥 Author <a name="authors"></a>
 
@@ -104,8 +117,8 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="features"></a>
 
-- Add more projects
-- Update UI with a light theme
+- Add more functionalities
+- Update UI
 
 <!-- CONTRIBUTING -->
 
