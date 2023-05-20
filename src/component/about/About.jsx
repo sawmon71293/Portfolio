@@ -35,7 +35,7 @@ const About = () => (
           </article>
         </div>
         <p>
-          Greetings! I&apos;m Saw Mon Han, a dedicated full-stack developer currently
+          Greetings! I&apos;m Saw Mon Han, a dedicated full-stack developer of one year experience currently
           undergoing training at Microverse, a renowned online school that
           specializes in remote pair programming. With a strong passion for
           coding, I have honed my skills in React, Ruby, and database
