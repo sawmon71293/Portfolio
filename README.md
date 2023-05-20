@@ -1,9 +1,5 @@
+
 <a name="readme-top"></a>
-
-# Preview 
-
-![calculator](https://user-images.githubusercontent.com/102650102/228421490-9ccb269d-2cd0-453c-b323-4c478f218d32.png)
-
 
 
 # 📗 Table of Contents
@@ -34,11 +30,11 @@
 
 # 📖 Math-magicians <a name="about-project"></a>
 
-<<<<<<< HEAD
+
 **Portfolio**  includes a range of projects, such as a todo list app, movie app,LeaderBoard app and a Calculator app. Each project demonstrates my proficiency in different technologies, including React, and JavaScript . You can explore each project to see the features, technologies used, and links to live projects and source code.
-=======
+
 **Math-magicians** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
->>>>>>> 6e1ed81d6ec75cc7c84081f136810a6bd41b1ffe
+
 
 Make simple calculations.
 Read a random math-related quote.
