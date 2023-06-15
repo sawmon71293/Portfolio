@@ -1,6 +1,6 @@
 import './header.css';
 import CTA from './CTA';
-import ME from '../../assets/me-3.jpg';
+import ME from '../../assets/sawmon.gif';
 import HeaderSocials from './HeaderSocials';
 
 const Header = () => (

@@ -45,6 +45,21 @@ const Experience = () => (
               <small className="text-align">Experienced</small>
             </div>
           </article>
+          <article className="experience__details">
+            <BsFillPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>Tailwind CSS</h4>
+              <small className="text-align">Experienced</small>
+            </div>
+          </article>
+          <article className="experience__details">
+            <BsFillPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>Material UI</h4>
+              <small className="text-align">Experienced</small>
+            </div>
+          </article>
+
         </div>
       </div>
       <div className="experience__backend">
