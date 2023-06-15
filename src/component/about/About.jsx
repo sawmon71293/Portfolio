@@ -21,7 +21,7 @@ const About = () => (
           <article className="about__card">
             <TbAwardFilled className="about_icon" />
             <h5>Experience</h5>
-            <small>7 months as a Junior SE</small>
+            <small>Over 1 year as a Junior SE</small>
           </article>
           <article className="about__card">
             <BsPersonWorkspace className="about_icon" />
@@ -36,10 +36,9 @@ const About = () => (
         </div>
         <p>
           Greetings! I&apos;m Saw Mon Han, a dedicated full-stack developer
-          of one year experience currently
-          undergoing training at Microverse, a renowned online school that
-          specializes in remote pair programming. With a strong passion for
-          coding, I have honed my skills in React, Ruby, and database
+          of one year experience with a strong passion for
+          coding, I have honed my skills in React, Java , Spring Boot, C# and
+          Dot Net Core, and database
           technologies through hands-on projects that replicate real-world
           scenarios. During my previous experience as a junior full-stack
           developer at a local company, I gained valuable insights into the
