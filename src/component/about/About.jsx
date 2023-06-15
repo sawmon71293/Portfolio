@@ -37,7 +37,8 @@ const About = () => (
         <p>
           Greetings! I&apos;m Saw Mon Han, a dedicated full-stack developer
           of one year experience with a strong passion for
-          coding, I have honed my skills in React, Java , Spring Boot, C# and Dot Net Core, and database
+          coding, I have honed my skills in React, Java , Spring Boot, C# and
+          Dot Net Core, and database
           technologies through hands-on projects that replicate real-world
           scenarios. During my previous experience as a junior full-stack
           developer at a local company, I gained valuable insights into the
