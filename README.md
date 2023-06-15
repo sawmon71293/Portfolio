@@ -77,7 +77,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd your-folder
-  git clone git@github.com:sawmon71293/Math-magicians.git
+  git clone git@github.com:sawmon71293/Portfolio.git
 ```
 
 ### Install
