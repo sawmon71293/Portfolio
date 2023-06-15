@@ -1,7 +1,7 @@
 import './about.css';
 import { TbAwardFilled } from 'react-icons/tb';
 import { BsPersonWorkspace } from 'react-icons/bs';
-import ME from '../../assets/myAvatar.png';
+import ME from '../../assets/sawmon.jpeg';
 
 const About = () => (
   <section id="about">
