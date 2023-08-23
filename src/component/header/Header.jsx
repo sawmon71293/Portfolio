@@ -2,13 +2,16 @@ import './header.css';
 import CTA from './CTA';
 import ME from '../../assets/sawmon.gif';
 import HeaderSocials from './HeaderSocials';
+import spaceImage from '../../assets/spaceship.png';
 
 const Header = () => (
+
   <header>
     <div className="container header__container" id="header">
-      <h5> Hello I&apos;m</h5>
-      <h1>Saw Mon</h1>
-      <h5 className="text-light">Fullstack Engineer</h5>
+      <img src={spaceImage} className="space-image" alt="Yellow Space Ship" />
+      <h5 style={{ fontFamily: "'Poiret One', cursive", marginBottom: '-10px', fontSize: '16px' }}>Hello I&apos;m</h5>
+      <h1 className="user-name">Saw Mon</h1>
+      <h5 className="text-light">Full-Stack Engineer</h5>
       <CTA />
       <HeaderSocials />
       <div className="me">

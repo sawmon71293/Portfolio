@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
 header {
   padding-top: 7rem;
   overflow: hidden;
@@ -7,6 +10,35 @@ header {
   text-align: center;
   height: 100%;
   position: relative;
+}
+
+.space-image {
+  width: 250px;
+  position: absolute;
+  top: -50px;
+  opacity: 0.7;
+  z-index: -1;
+  animation: moveLeftRight 20s infinite;
+}
+
+@keyframes moveLeftRight {
+  0% {
+    transform: rotate(25deg);
+    top: -50px;
+    left: -25px;
+  }
+
+  50% {
+    transform: rotate(-20deg);
+    top: -70px;
+    left: -60px;
+  }
+
+  100% {
+    transform: rotate(25deg);
+    top: -50px;
+    left: -25px;
+  }
 }
 
 .cta {
@@ -33,20 +65,24 @@ header {
   background: var(--color-primary);
 }
 
+.user-name {
+  font-family: 'Tilt Prism', cursive;
+}
+
 .me {
-  background: linear-gradient(var(--color-primary), transparent);
+  background: linear-gradient(#05595b, transparent);
   width: 40rem;
   height: 30rem;
   position: relative;
   left: calc(50% - 21rem);
   margin-top: 4rem;
-  border-radius: 1rem 1rem 0 0;
+  border-radius: 0.4rem 0.4rem 0 0;
   overflow: hidden;
   padding: 2.5rem 1.5rem 1.5rem;
 }
 
 .me-img {
-  border-radius: 1rem 1rem 0 0;
+  border-radius: 0.4rem 0.4rem 0 0;
   height: 26rem;
 }
 

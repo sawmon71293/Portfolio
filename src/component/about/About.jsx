@@ -2,11 +2,13 @@ import './about.css';
 import { TbAwardFilled } from 'react-icons/tb';
 import { BsPersonWorkspace } from 'react-icons/bs';
 import ME from '../../assets/sawmon.jpeg';
+import PurpuleSpaceShip from '../../assets/purplesspaceship.png';
 
 const About = () => (
   <section id="about">
-    <h5>Get To Know</h5>
-    <h2>About Me</h2>
+    <img src={PurpuleSpaceShip} className="purple-space-image" alt="Purple Space Ship" />
+    <h5 style={{ marginBottom: '-10px' }}>Get To Know</h5>
+    <h2 style={{ fontSize: '40px', fontWeight: '700' }}>About Me</h2>
     <div className="container about__container">
       <div className="about__me">
         <div className="about__me-image">

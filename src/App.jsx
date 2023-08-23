@@ -7,10 +7,14 @@ import Testimonials from './component/testimonials/Testimonials';
 import Contact from './component/contact/Contact';
 import Footer from './component/footer/Footer';
 import Services from './component/services/Services';
+import Particle from './component/Particle';
 
 function App() {
   return (
-    <>
+    <div className="app">
+      <div className="particle-container">
+        <Particle />
+      </div>
       <Header />
       <Nav />
       <About />
@@ -20,7 +24,7 @@ function App() {
       <Testimonials />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 

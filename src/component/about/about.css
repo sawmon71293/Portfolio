@@ -1,3 +1,17 @@
+#about {
+  z-index: 100;
+}
+
+.purple-space-image {
+  width: 450px;
+  position: absolute;
+  opacity: 0.5;
+  margin-top: 1500px;
+  margin-left: 1000px;
+  z-index: -1;
+  animation: moveLeftRight 20s infinite;
+}
+
 .about__container {
   display: grid;
   grid-template-columns: 25% 65%;
