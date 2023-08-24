@@ -1,23 +1,17 @@
 import './about.css';
 import { TbAwardFilled } from 'react-icons/tb';
 import { BsPersonWorkspace } from 'react-icons/bs';
-import ME from '../../assets/sawmon.jpeg';
+import ME from '../../assets/sawmon-removebg-preview.png';
 import PurpuleSpaceShip from '../../assets/purplesspaceship.png';
 
 const About = () => (
   <section id="about">
     <img src={PurpuleSpaceShip} className="purple-space-image" alt="Purple Space Ship" />
-    <h5 style={{ marginBottom: '-10px' }}>Get To Know</h5>
-    <h2 style={{ fontSize: '40px', fontWeight: '700' }}>About Me</h2>
+    <h5 style={{ marginBottom: '-10px', fontFamily: "'Poiret One', cursive" }}>Get To Know</h5>
+    <h2 style={{ fontSize: '40px', fontFamily: "'Black Ops One', cursive", color: 'white' }}>About Me</h2>
+    <img src={ME} alt="Saw Mon Developer" className="saw-mon-developer" />
     <div className="container about__container">
-      <div className="about__me">
-        <div className="about__me-image">
-          <img
-            src={ME}
-            alt="Saw Mon Han"
-          />
-        </div>
-      </div>
+
       <div className="about__content">
         <div className="about__cards">
           <article className="about__card">
@@ -36,7 +30,7 @@ const About = () => (
             <small>50+ hands-on projects</small>
           </article>
         </div>
-        <p>
+        <p className="info-paragraph">
           Greetings! I&apos;m Saw Mon Han, a dedicated full-stack developer
           of one year experience with a strong passion for
           coding, I have honed my skills in React, Java , Spring Boot, C# and
@@ -55,6 +49,7 @@ const About = () => (
           team&apos;s goals!
         </p>
         <a
+          style={{ textAlign: 'center' }}
           href="#contact"
           className="btn btn-primary"
         >
