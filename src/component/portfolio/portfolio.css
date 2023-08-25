@@ -1,13 +1,21 @@
+#portfolio {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .portfolio__container {
+  width: 80%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
 }
 
 .portfolio_item {
-  background: var(--color-bg-variant);
+  background-image: linear-gradient(to left, var(--color-bg-variant), #0279a9b4);
   padding: 1.3rem;
-  border-radius: 2rem;
+  border-radius: 0.4rem;
   border: 1px solid transparent;
   transition: var(--transition);
 }
@@ -28,8 +36,8 @@
 
 .portfolio_item-cta {
   display: flex;
-  gap: 1rem;
   margin-bottom: 1rem;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1024px) {

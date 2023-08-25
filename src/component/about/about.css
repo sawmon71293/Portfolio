@@ -29,14 +29,13 @@
 }
 
 .about__cards {
-  margin-top: -30px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 
 .about__card {
-  background: var(--color-bg-variant);
+  background-image: linear-gradient(to left, var(--color-bg-variant), #0279a9b4);
   border: 1px solid transparent;
   border-radius: 0.3rem;
   padding: 2rem;

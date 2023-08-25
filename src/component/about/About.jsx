@@ -8,7 +8,7 @@ const About = () => (
   <section id="about">
     <img src={PurpuleSpaceShip} className="purple-space-image" alt="Purple Space Ship" />
     <h5 style={{ marginBottom: '-10px', fontFamily: "'Poiret One', cursive" }}>Get To Know</h5>
-    <h2 style={{ fontSize: '40px', fontFamily: "'Black Ops One', cursive", color: 'white' }}>About Me</h2>
+    <h2 style={{ fontSize: '30px', fontFamily: "'Black Ops One', cursive", color: 'white' }}>About Me</h2>
     <img src={ME} alt="Saw Mon Developer" className="saw-mon-developer" />
     <div className="container about__container">
 

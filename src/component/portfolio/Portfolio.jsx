@@ -38,9 +38,9 @@ const data = [
 
 const Portfolio = () => (
   <section id="portfolio">
-    <h5>My Recent Work</h5>
-    <h2>Portfolio</h2>
-    <div className="container portfolio__container">
+    <h5 style={{ marginBottom: '-5px', fontFamily: "'Poiret One', cursive" }}>My Recent Work</h5>
+    <h2 style={{ fontSize: '30px', fontFamily: "'Black Ops One', cursive", color: 'white' }}>Portfolio</h2>
+    <div className="portfolio__container">
       {data.map(({
         id, image, title, github, demo,
       }) => (
@@ -54,9 +54,10 @@ const Portfolio = () => (
               alt="Portfolio one"
             />
           </div>
-          <h3>{title}</h3>
+          <h3 style={{ marginBottom: '20px', fontFamily: "'Didact Gothic', sans-serif", fontWeight: '700' }}>{title}</h3>
           <div className="portfolio_item-cta">
             <a
+              style={{ textAlign: 'center', width: '130px' }}
               href={github}
               className="btn"
               target="_blank"
@@ -65,6 +66,7 @@ const Portfolio = () => (
               Github
             </a>
             <a
+              style={{ textAlign: 'center', width: '130px' }}
               href={demo}
               className="btn btn-primary"
               target="_blank"
