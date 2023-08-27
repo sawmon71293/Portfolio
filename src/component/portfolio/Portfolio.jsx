@@ -38,6 +38,7 @@ const data = [
 
 const Portfolio = () => (
   <section id="portfolio">
+    <div className="purple-space-image" />
     <h5 style={{ marginBottom: '-5px', fontFamily: "'Poiret One', cursive" }}>My Recent Work</h5>
     <h2 style={{ fontSize: '30px', fontFamily: "'Black Ops One', cursive", color: 'white' }}>Portfolio</h2>
     <div className="portfolio__container">

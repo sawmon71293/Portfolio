@@ -13,10 +13,10 @@
 }
 
 .testimonial {
-  background: var(--color-bg-variant);
+  background-image: linear-gradient(to left, var(--color-bg-variant), #0279a9b4);
   text-align: center;
   padding: 2rem;
-  border-radius: 2rem;
+  border-radius: 0.4rem;
   user-select: none;
 }
 

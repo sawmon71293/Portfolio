@@ -27,8 +27,8 @@ const data = [
 ];
 const Testimonials = () => (
   <section id="testimonials">
-    <h5>Review from colleagues</h5>
-    <h2>Testimonials</h2>
+    <h5 style={{ marginBottom: '-10px', fontFamily: "'Poiret One', cursive" }}>Review from colleagues</h5>
+    <h2 style={{ fontSize: '30px', fontFamily: "'Black Ops One', cursive", color: 'white' }}>Testimonials</h2>
     <Swiper
       className="container testimonials__container"
       modules={[Pagination]}

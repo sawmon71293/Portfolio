@@ -5,6 +5,17 @@
   align-items: center;
 }
 
+.purple-space-image {
+  background-image: url('../../assets/purplesspaceship.png');
+  background-repeat: no-repeat;
+  background-size: 450px auto;
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  opacity: 0.5;
+  z-index: -1;
+}
+
 .portfolio__container {
   width: 80%;
   display: grid;

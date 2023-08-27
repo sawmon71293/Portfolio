@@ -81,7 +81,7 @@ section > h5 {
 
 section > h2 {
   color: var(--color-primary);
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 .text-light {

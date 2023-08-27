@@ -6,15 +6,6 @@
   align-items: center;
 }
 
-.purple-space-image {
-  width: 450px;
-  position: absolute;
-  opacity: 0.5;
-  margin-top: 1500px;
-  z-index: -1;
-  animation: moveLeftRight 20s infinite;
-}
-
 .saw-mon-developer {
   width: 200px;
   border-radius: 50%;
