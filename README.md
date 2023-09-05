@@ -31,7 +31,7 @@
 # 📖 Portfolio <a name="about-project"></a>
 
 
-**Portfolio**  includes a range of projects, such as a todo list app, movie app,LeaderBoard app and a Calculator app. Each project demonstrates my proficiency in different technologies, including React, and JavaScript . You can explore each project to see the features, technologies used, and links to live projects and source code.
+**Portfolio**  includes a range of projects, such as todo list app, movie app,budgeting app, calculator, weather forecasting and pet clinic app . Each project demonstrates my proficiency in different technologies, including React, and JavaScript and Vue .You can explore each project to see the features, technologies used, and links to live projects and source code.
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -50,8 +50,7 @@ This is to practice React
 
 - **Components**
 - **Events**
-- **Fetch data from API**
-- **Tests**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,7 +80,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 - npm install
-- npm run build
+- npm run dev
 
 ### Deployment
 
@@ -92,7 +91,7 @@ You can deploy this project using:
 
 ### Usage
 
-- npm run start
+- npm run dev
 
 ### Run Tests <a name="runtests"></a>
 - npm test
