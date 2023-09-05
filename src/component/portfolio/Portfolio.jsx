@@ -49,7 +49,7 @@ const data = [
     title: 'Weather Tracker',
     github: 'https://github.com/sawmon71293/Weather-app',
     demo: 'https://weatherapp-sawmon.netlify.app/',
-  }
+  },
 ];
 
 const Portfolio = () => (
