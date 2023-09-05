@@ -20,8 +20,8 @@ const Contact = () => {
   };
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      <h5 style={{ marginBottom: '-10px', fontFamily: "'Poiret One', cursive" }}>Get In Touch</h5>
+      <h2 style={{ fontSize: '30px', fontFamily: "'Black Ops One', cursive", color: 'white' }}>Contact Me</h2>
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
@@ -79,11 +79,12 @@ const Contact = () => {
           />
           <textarea
             name="message"
-            rows="7"
+            rows="10"
             placeholder="Your Message"
             required
           />
           <button
+            style={{ padding: '12px' }}
             type="submit"
             className="btn btn-primary"
           >

@@ -5,9 +5,9 @@
 }
 
 .experience__container > div {
-  background: var(--color-bg-variant);
+  background-image: linear-gradient(to left, var(--color-bg-variant), #0279a9b4);
   padding: 2.4rem 5rem;
-  border-radius: 2rem;
+  border-radius: 0.4rem;
   border: 1px solid transparent;
   transition: var(--transition);
 }

@@ -1,11 +1,11 @@
 import React from 'react';
-import './services.css';
 import { BiCheck } from 'react-icons/bi';
+import './services.css';
 
 const Services = () => (
   <section id="services">
-    <h5>What I Offer</h5>
-    <h2>Services</h2>
+    <h5 style={{ marginBottom: '-5px', fontFamily: "'Poiret One', cursive" }}>What I Offer</h5>
+    <h2 style={{ fontSize: '30px', fontFamily: "'Black Ops One', cursive", color: 'white' }}>Services</h2>
     <div className="container services__container">
       <article className="service">
         <div className="service__head">
@@ -14,21 +14,16 @@ const Services = () => (
         <ul className="service__list">
           <li>
             <BiCheck className="service__list-icon" />
-            <p>Creating static websites with HTML, CSS, and JavaScript</p>
+            <p>Creating static websites with HTML, CSS, and JavaScript, Bootstrap</p>
           </li>
           <li>
             <BiCheck className="service__list-icon" />
             <p>
               Developing simple web applications using frameworks such as
-              React
+              React and Vue
             </p>
           </li>
-          <li>
-            <BiCheck className="service__list-icon" />
-            <p>
-              Creating responsive website layouts using Bootstrap
-            </p>
-          </li>
+
         </ul>
       </article>
       <article className="service">

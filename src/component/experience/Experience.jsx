@@ -1,14 +1,14 @@
 import React from 'react';
-import './experience.css';
 import { BsFillPatchCheckFill } from 'react-icons/bs';
+import './experience.css';
 
 const Experience = () => (
   <section id="experience">
-    <h5>What Skills I have</h5>
-    <h2>My Experience</h2>
+    <h5 style={{ marginBottom: '-5px', fontFamily: "'Poiret One', cursive" }}>What Skills I have</h5>
+    <h2 style={{ fontSize: '30px', fontFamily: "'Black Ops One', cursive", color: 'white' }}>My Experience</h2>
     <div className="container experience__container">
       <div className="experience__frontend">
-        <h3>Frontend Development</h3>
+        <h3 style={{ color: '#f9f9f9', fontWeight: '700' }}>Frontend Development</h3>
         <div className="experience__content">
           <article className="experience__details">
             <BsFillPatchCheckFill className="experience__details-icon" />
@@ -48,6 +48,13 @@ const Experience = () => (
           <article className="experience__details">
             <BsFillPatchCheckFill className="experience__details-icon" />
             <div>
+              <h4>Vue</h4>
+              <small className="text-align">Experienced</small>
+            </div>
+          </article>
+          <article className="experience__details">
+            <BsFillPatchCheckFill className="experience__details-icon" />
+            <div>
               <h4>Tailwind CSS</h4>
               <small className="text-align">Experienced</small>
             </div>
@@ -63,7 +70,7 @@ const Experience = () => (
         </div>
       </div>
       <div className="experience__backend">
-        <h3>Backend Development</h3>
+        <h3 style={{ color: '#f9f9f9', fontWeight: '700' }}>Backend Development</h3>
         <div className="experience__content">
           <article className="experience__details">
             <BsFillPatchCheckFill className="experience__details-icon" />
@@ -86,13 +93,7 @@ const Experience = () => (
               <small className="text-align">Experienced</small>
             </div>
           </article>
-          <article className="experience__details">
-            <BsFillPatchCheckFill className="experience__details-icon" />
-            <div>
-              <h4>MySQL</h4>
-              <small className="text-align">Experienced</small>
-            </div>
-          </article>
+
           <article className="experience__details">
             <BsFillPatchCheckFill className="experience__details-icon" />
             <div>
@@ -103,7 +104,21 @@ const Experience = () => (
           <article className="experience__details">
             <BsFillPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>Dot Net Core 3.1</h4>
+              <h4>Dot Net Core</h4>
+              <small className="text-align">Experienced</small>
+            </div>
+          </article>
+          <article className="experience__details">
+            <BsFillPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>PHP</h4>
+              <small className="text-align">Experienced</small>
+            </div>
+          </article>
+          <article className="experience__details">
+            <BsFillPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>Laravel</h4>
               <small className="text-align">Experienced</small>
             </div>
           </article>
@@ -111,6 +126,20 @@ const Experience = () => (
             <BsFillPatchCheckFill className="experience__details-icon" />
             <div>
               <h4>Microsoft SQL Server</h4>
+              <small className="text-align">Experienced</small>
+            </div>
+          </article>
+          <article className="experience__details">
+            <BsFillPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>MySQL</h4>
+              <small className="text-align">Experienced</small>
+            </div>
+          </article>
+          <article className="experience__details">
+            <BsFillPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>Postgres</h4>
               <small className="text-align">Experienced</small>
             </div>
           </article>
