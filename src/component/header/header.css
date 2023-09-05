@@ -48,16 +48,6 @@ header {
   justify-content: center;
 }
 
-.header__socials {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.2rem;
-  position: absolute;
-  left: 0;
-  bottom: 3rem;
-}
-
 .header__socials,
   .scroll__down {
     display: none;
@@ -107,13 +97,24 @@ header {
     height: 90vh;
   }
 
+ 
+
   .me{
     max-width:70%;
     margin: auto;
     margin-top:4rem;
   }
 
-  .header__socials,
+  .header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+  }
+  
   .scroll__down {
     display: block;
   }
