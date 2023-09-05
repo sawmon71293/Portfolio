@@ -1,6 +1,6 @@
 import React from 'react';
-import './experience.css';
 import { BsFillPatchCheckFill } from 'react-icons/bs';
+import './experience.css';
 
 const Experience = () => (
   <section id="experience">
@@ -48,6 +48,13 @@ const Experience = () => (
           <article className="experience__details">
             <BsFillPatchCheckFill className="experience__details-icon" />
             <div>
+              <h4>Vue</h4>
+              <small className="text-align">Experienced</small>
+            </div>
+          </article>
+          <article className="experience__details">
+            <BsFillPatchCheckFill className="experience__details-icon" />
+            <div>
               <h4>Tailwind CSS</h4>
               <small className="text-align">Experienced</small>
             </div>
@@ -86,13 +93,7 @@ const Experience = () => (
               <small className="text-align">Experienced</small>
             </div>
           </article>
-          <article className="experience__details">
-            <BsFillPatchCheckFill className="experience__details-icon" />
-            <div>
-              <h4>MySQL</h4>
-              <small className="text-align">Experienced</small>
-            </div>
-          </article>
+
           <article className="experience__details">
             <BsFillPatchCheckFill className="experience__details-icon" />
             <div>
@@ -103,7 +104,21 @@ const Experience = () => (
           <article className="experience__details">
             <BsFillPatchCheckFill className="experience__details-icon" />
             <div>
-              <h4>Dot Net Core 3.1</h4>
+              <h4>Dot Net Core</h4>
+              <small className="text-align">Experienced</small>
+            </div>
+          </article>
+          <article className="experience__details">
+            <BsFillPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>PHP</h4>
+              <small className="text-align">Experienced</small>
+            </div>
+          </article>
+          <article className="experience__details">
+            <BsFillPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>Laravel</h4>
               <small className="text-align">Experienced</small>
             </div>
           </article>
@@ -111,6 +126,20 @@ const Experience = () => (
             <BsFillPatchCheckFill className="experience__details-icon" />
             <div>
               <h4>Microsoft SQL Server</h4>
+              <small className="text-align">Experienced</small>
+            </div>
+          </article>
+          <article className="experience__details">
+            <BsFillPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>MySQL</h4>
+              <small className="text-align">Experienced</small>
+            </div>
+          </article>
+          <article className="experience__details">
+            <BsFillPatchCheckFill className="experience__details-icon" />
+            <div>
+              <h4>Postgres</h4>
               <small className="text-align">Experienced</small>
             </div>
           </article>
