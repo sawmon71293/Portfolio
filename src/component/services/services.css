@@ -5,8 +5,8 @@
 }
 
 .service {
-  background: var(--color-bg-variant);
-  border-radius: 0 0 2rem 2rem;
+  background-image: linear-gradient(to left, var(--color-bg-variant), #0279a9b4);
+  border-radius: 0.4rem;
   border: 1px solid var(--color-primary);
   transition: var(--transition);
 }
@@ -18,9 +18,10 @@
 }
 
 .service__head {
-  background: var(--color-primary);
-  padding: 2rem;
-  border-radius: 0 0 2rem 2rem;
+  background: var(--color-white);
+  padding: 1rem;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
   box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
 }
 
