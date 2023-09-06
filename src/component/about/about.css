@@ -66,6 +66,8 @@
   color: var(--color-light);
 }
 
+
+
 @media screen and (max-width: 600px) {
   .about__me {
     width: 65%;
@@ -84,6 +86,12 @@
   .about__content p {
     margin: 1.5rem 0;
   }
+
+  .info-paragraph {
+    text-align: left;
+  }
+
+
 }
 
 @media screen and (max-width: 1024px) {
