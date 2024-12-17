@@ -1,23 +1,33 @@
- - type: web
-    name: "sawmon"
-    runtime: static
-    buildCommand: yarn build
-    staticPublishPath: ./build
-    previews:
-      generation: automatic # Enable service previews
-    buildFilter:
-      paths:
-      - src/**/*.js
-      ignoredPaths:
-      - src/**/*.test.js
-    headers:
-      - path: /*
-        name: X-Frame-Options
-        value: sameorigin
-    routes:
-      - type: redirect
-        source: /old
-        destination: /new
-      - type: rewrite
-        source: /a/*
-        destination: /a
+type: web
+name: sawmon
+runtime: static
+
+# Build configuration
+buildCommand: yarn build
+staticPublishPath: ./build
+
+# Previews configuration
+previews:
+  generation: automatic # Enable service previews
+
+# Build filters
+buildFilter:
+  paths:
+    - src/**/*.js
+  ignoredPaths:
+    - src/**/*.test.js
+
+# Custom headers
+headers:
+  - path: /*
+    name: X-Frame-Options
+    value: sameorigin
+
+# Routes and rewrites
+routes:
+  - type: redirect
+    source: /old
+    destination: /new
+  - type: rewrite
+    source: /a/*
+    destination: /a
