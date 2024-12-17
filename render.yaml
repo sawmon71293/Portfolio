@@ -1,5 +1,5 @@
  - type: web
-    name: my-blog
+    name: sawmon
     runtime: static
     buildCommand: yarn build
     staticPublishPath: ./build
