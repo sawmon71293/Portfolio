@@ -19,8 +19,13 @@ const Services = () => (
           <li>
             <BiCheck className="service__list-icon" />
             <p>
-              Developing simple web applications using frameworks such as
-              React and Vue
+              Building responsive front-end applications using React, Vue (Nuxt 3).
+            </p>
+          </li>
+          <li>
+            <BiCheck className="service__list-icon" />
+            <p>
+              Design customize icons and motion graphic (2D animation).
             </p>
           </li>
 
@@ -34,21 +39,14 @@ const Services = () => (
           <li>
             <BiCheck className="service__list-icon" />
             <p>
-              Using Java and Springboot to develop RESTful APIs and web
-              applications
+              Utilized Java, Node.js, and C# with their respective frameworks (Spring Boot, Fastify, and .NET Core) to develop backend services.
             </p>
           </li>
           <li>
             <BiCheck className="service__list-icon" />
             <p>
               Working with databases such as  Microsoft SQL
-              Server and MySQL.
-            </p>
-          </li>
-          <li>
-            <BiCheck className="service__list-icon" />
-            <p>
-              Using C# and .NET framework to develop APIs and web applications
+              Server, MySQL, Postgres.
             </p>
           </li>
         </ul>

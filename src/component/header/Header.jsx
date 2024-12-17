@@ -1,6 +1,6 @@
 import './header.css';
 import CTA from './CTA';
-import ME from '../../assets/sawmon.gif';
+import ME from '../../assets/myself.jpg';
 import HeaderSocials from './HeaderSocials';
 import spaceImage from '../../assets/spaceship.png';
 

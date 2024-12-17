@@ -43,7 +43,6 @@
 .info-paragraph {
   font-weight: 400;
   font-family: 'Didact Gothic', sans-serif;
-  color: #fff;
 }
 
 .about_icon {
@@ -63,7 +62,7 @@
 
 .about__content p {
   margin: 2rem 0 2.6rem;
-  color: var(--color-light);
+  color: var(--color-primary-variant);
 }
 
 

@@ -37,21 +37,9 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
-            <RiMessengerLine className="contact__option-icon" />
-            <h4>Messenger</h4>
-            <h5>sawmon</h5>
-            <a
-              href="https://m.me/saw.mon.372661"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Send a message
-            </a>
-          </article>
-          <article className="contact__option">
             <RiWhatsappLine className="contact__option-icon" />
-            <h4>Whatsapp</h4>
-            <h5>+959251275847</h5>
+            <h4>Line</h4>
+            <h5>+66839953933</h5>
             <a
               href="https://api.whatsapp.com/send?phone=+959251275847"
               target="_blank"

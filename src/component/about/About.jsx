@@ -14,7 +14,7 @@ const About = () => (
           <article className="about__card">
             <TbAwardFilled className="about_icon" />
             <h5>Experience</h5>
-            <small>Over 1 year as a Junior SE</small>
+            <small>Over 2 years as a Full Stack Developer</small>
           </article>
           <article className="about__card">
             <BsPersonWorkspace className="about_icon" />
@@ -24,18 +24,16 @@ const About = () => (
           <article className="about__card">
             <TbAwardFilled className="about_icon" />
             <h5>Projects</h5>
-            <small>50+ hands-on projects</small>
+            <small>30+ hands-on projects</small>
           </article>
         </div>
         <p className="info-paragraph">
           Greetings, fellow tech enthusiasts! I am Saw Mon Han, a trailblazing
-          full-stack developer on an exhilarating
-          journey with Microverse, the cutting-edge online school
-          that takes remote pair programming to new heights.
+          full-stack developer from Burma.
           My coding adventures have been nothing short of thrilling,
           fueled by my passion for creating exceptional digital
           experiences using a wide array of technologies like React,
-          Ruby, and the captivating world of databases.
+          Vue, Java, C#, Node.js and the captivating world of databases.
 
           But here&apos;s the twist—I&apos;m not just a coding wizard.
           I&apos;m also a fun-loving and supportive

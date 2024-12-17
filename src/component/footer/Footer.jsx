@@ -30,14 +30,7 @@ const Footer = () => (
         <a href="#contact">Contact</a>
       </li>
     </ul>
-    <div className="footer__socials">
-      <a href="https://www.facebook.com/saw.mon.372661">
-        <CiFacebook />
-      </a>
-      <a href="https://twitter.com/sawmonhan">
-        <FiTwitter />
-      </a>
-    </div>
+    
     <div className="footer__copyright">
       <small>&copy; Saw Mon. All rights reserved.</small>
     </div>
